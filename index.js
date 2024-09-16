@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT
 
 // Configurar o diretório de arquivos estáticos (pasta public)
 app.use(express.static('public'));
